@@ -20,5 +20,5 @@ Resources:
 
 
 Todo:
-- Allow the possibility to have several calendars on one site site through the plugin
+- Allow the possibility to have several calendars on one site through the plugin
 - Allow the possibility (as of the Joomla plugin) to link to an internal page instead of the standard (external) calendar page
