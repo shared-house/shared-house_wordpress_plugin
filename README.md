@@ -1,5 +1,5 @@
 # shared-house_wordpress_plugin
-Wordpress plugin for <a href="www.shared-house.com">Shared-house.com</a> booking calendar
+Wordpress plugin for the booking calendar of http://www.shared-house.com 
 
 This plugin displays the booking calendar of shared-house.com website on a wordpress site.
 
