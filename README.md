@@ -1,24 +1,16 @@
-# shared-house_wordpress_plugin
-Wordpress plugin for the booking calendar of http://www.shared-house.com 
+# Shared House WordPress plugin
 
-This plugin displays the booking calendar of shared-house.com website on a wordpress site.
+Shared House adds a booking and availability calendar to a WordPress holiday-rental website.
 
-The user has to fill the ad # (previously created on shared-house.com) to display the right calendar.
+The maintained plugin is available from the [WordPress plugin directory](https://wordpress.org/plugins/shared-house/). Version 2.1.1 supports WordPress 6.0 or later and PHP 7.4 or later. It can be displayed as a widget or with the `[shared_house]` shortcode.
 
-Currently it's only possible to include one calendar on a wordpress site through this plugin.
+## Resources
 
-Resources:
-- The home page of the plugin in wordpress plugin directory can be found here:
-<a href="https://wordpress.org/plugins/shared-house/">https://wordpress.org/plugins/shared-house/</a>
+- [Free booking and availability calendar for holiday rentals](https://www.shared-house.com/index_booking_calendar.php)
+- [Shared House plugin on WordPress.org](https://wordpress.org/plugins/shared-house/)
+- [Plugin documentation and calendar overview](https://www.shared-house.com/free-booking-calendar.php)
+- [GitHub Pages demo](https://shared-house.github.io/shared-house_wordpress_plugin/)
 
-- The equivalent plugin for joomla websites can be found here:
-<a href="http://extensions.joomla.org/profile/extension/vertical-markets/booking-a-reservations/shared-house">http://extensions.joomla.org/profile/extension/vertical-markets/booking-a-reservations/shared-house</a>
+## Historical packages
 
-- The homepage for the calendar (documentation, FAQ, download...) is here:
-<a href=http://www.shared-house.com/free-booking-calendar.php">http://www.shared-house.com/free-booking-calendar.php</a>
-
-
-
-Todo:
-- Allow the possibility to have several calendars on one site through the plugin
-- Allow the possibility (as of the Joomla plugin) to link to an internal page instead of the standard (external) calendar page
+The `shared-house 2` directory contains a historical WordPress 1.x package for reference. It is not recommended for current WordPress or PHP installations. Historical Joomla extensions are not distributed from this repository, and compatibility with current Joomla has not been verified.
