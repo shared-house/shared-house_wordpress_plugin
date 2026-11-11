@@ -1,50 +1,271 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Shared-house wordpress plugin by xav999</title>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Free Booking Calendar Plugin for WordPress | Shared House</title>
+  <meta name="description" content="Add a free booking and availability calendar to a WordPress holiday-rental website with the Shared House plugin, widget or shortcode.">
+  <link rel="canonical" href="https://shared-house.github.io/shared-house_wordpress_plugin/">
+  <meta name="theme-color" content="#153f32">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Shared House booking calendar plugin for WordPress">
+  <meta property="og:description" content="Show available, booked and pending dates on your holiday-rental website.">
+  <meta property="og:url" content="https://shared-house.github.io/shared-house_wordpress_plugin/">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Shared House",
+    "applicationCategory": "WordPressPlugin",
+    "operatingSystem": "WordPress 6.0 or later",
+    "softwareVersion": "2.1.1",
+    "description": "A free booking and availability calendar plugin for holiday-rental WordPress websites.",
+    "url": "https://shared-house.github.io/shared-house_wordpress_plugin/",
+    "downloadUrl": "https://wordpress.org/plugins/shared-house/",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "EUR"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Shared-house wordpress plugin</h1>
-        <p>Wordpress plugin for Shared-house.com booking calendar</p>
-
-        <p class="view"><a href="https://github.com/xav999/shared-house_wordpress_plugin">View the Project on GitHub <small>xav999/shared-house_wordpress_plugin</small></a></p>
-
-
-        <ul>
-          <li><a href="https://github.com/xav999/shared-house_wordpress_plugin/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/xav999/shared-house_wordpress_plugin/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/xav999/shared-house_wordpress_plugin">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <p>This project is about the Wordpress plugin for <a href="http://www.shared-house.com/index.php?&amp;langue=en">Shared-house.com</a> booking calendar.</p>
-
-<p>The plugin allows to easily display the booking calendar on a Wordpress site. The plugin homepage and dwnload information can be found here: <a href="http://www.shared-house.com/free-booking-calendar.php">http://www.shared-house.com/free-booking-calendar.php</a></p>
-
-<p>However a number of improvements need to be made, for instance:</p>
-
-<ul>
-<li>The ability to link to an internal page of the wordpress site instead of the calendar page on shared-house.com</li>
-<li>the ability to include several calendars with different ad numbers</li>
-</ul>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/xav999">xav999</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Shared House WordPress calendar home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" role="img">
+            <path d="M5 18.5 20 6l15 12.5v15A2.5 2.5 0 0 1 32.5 36h-25A2.5 2.5 0 0 1 5 33.5Z"/>
+            <path d="M13 36V22h14v14M14 14h12"/>
+          </svg>
+        </span>
+        <span><strong>Shared House</strong><small>WordPress calendar</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#demo">Demo</a>
+        <a href="#install">Install</a>
+        <a href="#archives">Archives</a>
+        <a class="nav-github" href="https://github.com/shared-house/shared-house_wordpress_plugin">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Free WordPress plugin · Version 2.1.1</p>
+          <h1>A simple availability calendar for your holiday-rental website.</h1>
+          <p class="hero-lede">Show guests which dates are available, booked or awaiting confirmation. Manage the dates on Shared House and add the calendar to WordPress with a widget or one shortcode.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wordpress.org/plugins/shared-house/">Install the WordPress booking calendar</a>
+            <a class="button button-secondary" href="https://www.shared-house.com/index_booking_calendar.php">Create a free availability calendar</a>
+          </div>
+          <ul class="hero-facts" aria-label="Plugin highlights">
+            <li><span aria-hidden="true">✓</span> No booking data stored in WordPress</li>
+            <li><span aria-hidden="true">✓</span> Six languages</li>
+            <li><span aria-hidden="true">✓</span> Responsive embed</li>
+          </ul>
+        </div>
+
+        <aside class="plugin-card" aria-label="Current plugin compatibility">
+          <div class="plugin-card-top">
+            <span class="wp-mark" aria-hidden="true">W</span>
+            <div>
+              <p>Shared House</p>
+              <span>Booking &amp; availability calendar</span>
+            </div>
+          </div>
+          <dl>
+            <dt>Current version</dt><dd>2.1.1</dd>
+            <dt>Requires WordPress</dt><dd>6.0+</dd>
+            <dt>Requires PHP</dt><dd>7.4+</dd>
+            <dt>License</dt><dd>GPLv2 or later</dd>
+          </dl>
+          <a href="https://wordpress.org/plugins/shared-house/">View the verified plugin details on WordPress.org <span aria-hidden="true">→</span></a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="demo-section" id="demo">
+      <div class="shell demo-grid">
+        <div class="section-copy">
+          <p class="eyebrow"><span></span> Illustrative demo</p>
+          <h2>Availability guests can understand at a glance.</h2>
+          <p>This fictional calendar shows the three booking states used by a typical holiday rental. Your real calendar is hosted by Shared House and reflects the dates you manage there.</p>
+          <div class="legend" aria-label="Calendar legend">
+            <span><i class="dot available"></i> Available</span>
+            <span><i class="dot pending"></i> Pending</span>
+            <span><i class="dot booked"></i> Booked</span>
+          </div>
+          <a class="text-link" href="https://www.shared-house.com/free-booking-calendar.php">Learn how the free holiday-rental booking calendar works <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="calendar-window">
+          <div class="browser-bar" aria-hidden="true">
+            <span></span><span></span><span></span>
+            <p>seaside-cottage.example / availability</p>
+          </div>
+          <div class="calendar-card">
+            <div class="calendar-heading">
+              <div>
+                <p>Seaside Cottage</p>
+                <span>Availability calendar · example only</span>
+              </div>
+              <strong>August 2027</strong>
+            </div>
+            <table class="calendar-table">
+              <caption>Fictional availability calendar for August 2027</caption>
+              <thead>
+                <tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="booked-day">1</td><td class="booked-day">2</td><td class="booked-day">3</td><td class="booked-day">4</td><td class="booked-day">5</td><td class="pending-day">6</td><td class="pending-day">7</td>
+                </tr>
+                <tr>
+                  <td class="pending-day">8</td><td class="pending-day">9</td><td class="pending-day">10</td><td class="pending-day">11</td><td class="pending-day">12</td><td class="pending-day">13</td><td class="available-day">14</td>
+                </tr>
+                <tr>
+                  <td class="available-day">15</td><td class="available-day">16</td><td class="available-day">17</td><td class="available-day">18</td><td class="available-day">19</td><td class="available-day">20</td><td class="available-day">21</td>
+                </tr>
+                <tr>
+                  <td class="available-day">22</td><td class="available-day">23</td><td class="available-day">24</td><td class="booked-day">25</td><td class="booked-day">26</td><td class="booked-day">27</td><td class="booked-day">28</td>
+                </tr>
+                <tr>
+                  <td class="booked-day">29</td><td class="available-day">30</td><td class="available-day">31</td><td class="empty"></td><td class="empty"></td><td class="empty"></td><td class="empty"></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="calendar-footer">
+              <span>Updated by the property owner</span>
+              <span>Illustration — no live availability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps-section" aria-labelledby="steps-title">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow"><span></span> Three steps</p>
+          <h2 id="steps-title">From listing to WordPress in a few minutes.</h2>
+        </div>
+        <ol class="steps">
+          <li>
+            <span>01</span>
+            <h3>Create your calendar</h3>
+            <p>Create a free Shared House listing and note its listing number.</p>
+            <a href="https://www.shared-house.com/admin.php?langue=en">Create a holiday-rental listing <span aria-hidden="true">→</span></a>
+          </li>
+          <li>
+            <span>02</span>
+            <h3>Install the plugin</h3>
+            <p>Install Shared House from the WordPress plugin directory and activate it.</p>
+            <a href="https://wordpress.org/plugins/shared-house/">Download the Shared House WordPress plugin <span aria-hidden="true">→</span></a>
+          </li>
+          <li>
+            <span>03</span>
+            <h3>Add it to a page</h3>
+            <p>Use the widget or paste the shortcode into any post or page.</p>
+            <a href="#install">Copy the WordPress shortcode <span aria-hidden="true">↓</span></a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="install-section" id="install">
+      <div class="shell install-grid">
+        <div class="section-copy">
+          <p class="eyebrow light"><span></span> WordPress integration</p>
+          <h2>One shortcode, with sensible defaults.</h2>
+          <p>After entering your listing number under <strong>Settings → Shared House</strong>, use the basic shortcode anywhere. Attributes let you override the listing, language or season legend for an individual calendar.</p>
+          <ul class="check-list">
+            <li>Widget and Legacy Widget block support</li>
+            <li>French, English, Dutch, Spanish, German and Finnish</li>
+            <li>Available, booked and pending dates</li>
+            <li>Optional holiday-season legend</li>
+          </ul>
+        </div>
+
+        <div class="code-stack">
+          <div class="code-card">
+            <div class="code-label"><span>Basic shortcode</span><button type="button" data-copy="[shared_house]">Copy</button></div>
+            <pre><code>[shared_house]</code></pre>
+          </div>
+          <div class="code-card">
+            <div class="code-label"><span>Shortcode with options</span><button type="button" data-copy='[shared_house numero="132" langue="en" saisons="avec"]'>Copy</button></div>
+            <pre><code>[shared_house numero="132" langue="en" saisons="avec"]</code></pre>
+          </div>
+          <p class="code-note">Listing 132 is the plugin's demo listing. Replace it with your own Shared House listing number.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="archives-section" id="archives">
+      <div class="shell archive-grid">
+        <div class="section-copy">
+          <p class="eyebrow"><span></span> Compatibility &amp; archives</p>
+          <h2>Use the maintained release on current websites.</h2>
+          <p>The old packages remain part of the project's history. They are documented here to prevent an archive download from being mistaken for the supported WordPress release.</p>
+        </div>
+        <div class="version-list">
+          <article>
+            <div><span class="status current">Current</span><h3>WordPress 2.1.1</h3></div>
+            <p>For WordPress 6.0 or later and PHP 7.4 or later. Uses HTTPS, the Settings API, a responsive embed, a widget and a shortcode.</p>
+            <a href="https://wordpress.org/plugins/shared-house/">Get the maintained WordPress release <span aria-hidden="true">→</span></a>
+          </article>
+          <article>
+            <div><span class="status archived">Archive</span><h3>WordPress 1.x</h3></div>
+            <p>Historical code is kept in this repository for reference. Compatibility with current WordPress and PHP is not claimed; do not use it for a new installation.</p>
+            <a href="https://github.com/shared-house/shared-house_wordpress_plugin/tree/gh-pages/shared-house%202">Browse the historical WordPress package <span aria-hidden="true">→</span></a>
+          </article>
+          <article>
+            <div><span class="status archived">Archive</span><h3>Joomla extensions</h3></div>
+            <p>Historical Joomla modules existed for older Joomla generations, but no maintained Joomla package is distributed from this repository. Compatibility with current Joomla has not been verified.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="shell closing-card">
+        <div>
+          <p class="eyebrow light"><span></span> Ready to publish</p>
+          <h2>Give guests a clear view of your availability.</h2>
+        </div>
+        <a class="buttn button-white" href="https://wordpress.org/plugins/shared-house/">Add the free calendar to WordPress</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" role="img"><path d="M5 18.5 20 6l15 12.5v15A2.5 2.5 0 0 1 32.5 36h-25A2.5 2.5 0 0 1 5 33.5Z"/><path d="M13 36V22h14v14M14 14h12"/></svg>
+          </span>
+          <span><strong>Shared House</strong><small>WordPress calendar</small></span>
+        </a>
+        <p>A free availability calendar for holiday-rental owners.</p>
+      </div>
+      <div class="footer-links">
+        <div><strong>Calendar</strong><a href="https://www.shared-house.com/index_booking_calendar.php">Free availability calendar</a><a href="https://www.shared-house.com/">Shared House holiday rentals</a></div>
+        <div><strong>Plugin</strong<a href="https://wordpress.org/plugins/shared-house/">WordPress.org</a><a href="https://github.com/shared-house/shared-house_wordpress_plugin">Source on GitHub</a></div>
+      </div>
+    </div>
+    <div class="shell footer-bottom">
+      <span>© <span id="year">2026</span> Shared House</span>
+      <span>Open-source software · GPLv2 or later</span>
+    </div>
+  </footer>
+
+  <script src="javascripts/site.js?v=2.1.1-2"></script>
+</body>
 </html>
